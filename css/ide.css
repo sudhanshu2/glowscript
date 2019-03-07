@@ -1,16 +1,15 @@
-html { height: 100%; }
+html { 
+    height: 100%;
+}
 
-body
-{
-	font-family: Verdana, Sans-Serif;
-	background:	#f1f2f4;
+body {
+    font-family: 'Lato', sans-serif;
+	background:	#ffffff;
 	font-size: 90%;
 }
 
-body .ideBody
-{
-	margin: 	0 auto;
-	
+body .ideBody {
+    margin: 0 auto;
 }
 
 a:link, a:visited, a:hover {
@@ -27,60 +26,62 @@ a:hover {
     position: fixed;
     top: 0px;
     left: 0px;
-    height: 3.2em;
+    height: 8vh;
     margin: 0;
-    padding: 0;
     width: 100%;
-    overflow: hidden;
-    background: #5c9ccc url('redmond/IDE/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png') 50% 50% repeat-x; 
-    color: #ffffff; 
     z-index: 10;
-	
+    background: #8ab9da;
+    background: -webkit-linear-gradient(to left, #8ab9da, #6ba6d1);
+    background: linear-gradient(to right, #8ab9da, #6ba6d1);
 }
 
-.headerInner	{
-
-	position:		relative;
-	text-indent:	40px;
-
+.headerInner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+	text-indent: 40px;
 }
+
 .headerInner h2	{
-
-	margin-top:		5px;
-
+	font-weight: 200;
+    letter-spacing: 5px;
+    color: #FFFFFF;
 }
 
-.header a { color: #fff; }
-
-
-#pageWrapperIDE	
-{
-			margin:		0 auto;
-			position: 		relative;
-			width:		95%;
-			min-height:	250px;
-			padding-left:	10px;
-			padding-right:	10px;
-			padding-bottom:	10px;
-			padding-top:	10px;
-			border:		1px solid #e2e2e2;
-			background:	#fff;	
-			overflow:		hidden;
-			z-index:		1;		
+.headerInner h2	{
+	font-weight: 200;
+    letter-spacing: 5px;
 }
 
-#pageWrapperIDE h4	
-{
-			margin-top: 20px;
-			margin-bottom: 10px;	
+.header a {
+    color: #fff;
 }
 
-img.right		
-{
-			float:		right;
-			margin:		5px;
-			padding:		2px;
-			border:		2px solid #000;
+#pageWrapperIDE	{
+    margin: 0 auto;
+    position: relative;
+    width: 95%;
+    min-height: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid #e2e2e2;
+    background: #FFFFFF;	
+    overflow: hidden;
+    z-index: 1;		
+}
+
+#pageWrapperIDE h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;	
+}
+
+img.right {
+    float: right;
+    margin: 5px;
+    padding: 2px;
+    border: 2px solid #000;
 }
 
 #footerWrap	
@@ -115,8 +116,7 @@ img.right
 			color:		#f81;
 }
 
-.right-header
-{
+.right-header {
 	position:fixed;
 	top:0px;
 	right: 0px;
@@ -232,8 +232,7 @@ a.button
 	color: Blue;
 }
 
-.template
-{
+.template {
 	display:none
 }
 
@@ -377,8 +376,8 @@ a.button
 .ace-custom .ace_line .ace_identifier.ace_builtin {
 }
 .ace-custom .ace_line .ace_attribute.ace_builtin {
-}*/
-/*.ace-custom .ace_line .ace_constant.ace_buildin {
+}
+.ace-custom .ace_line .ace_constant.ace_buildin {
 }
 .ace-custom .ace_line .ace_constant.ace_language {
 }
